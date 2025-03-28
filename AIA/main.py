@@ -2,7 +2,7 @@ import requests
 import time
 import base64
 
-# API Key (Do not share publicly)
+# API Key, Dont use my API key
 API_KEY = "eHVoYWlyYWhtZWQ5OTBAZ21haWwuY29t:LflFsmt7dMBsHPQw0z_PB"
 
 # Encode API Key for authentication
@@ -18,7 +18,6 @@ headers = {
 response = requests.get("https://api.d-id.com/credits", headers=headers)
 print("API Test Response:", response.text)
 
-# Avatar Image URL (Stored in Dropbox)
 IMAGE_URL = "https://www.dropbox.com/scl/fi/t33ipleexy7j64u0m0zw9/IMG_3226.jpg?rlkey=tiqkqixzuusciannnaf0uhgxy&raw=1"
 
 # Text-to-Speech Script
@@ -30,7 +29,7 @@ SCRIPT_TEXT = (
     "I'm committed to this field for the long haul, and I'm excited to be part of a company with such ambitious plans for the future."
 )
 
-# API request payload for generating the video
+# Video Designing
 data = {
     "source_url": IMAGE_URL,
     "script": {
