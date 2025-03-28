@@ -16,19 +16,18 @@ This project integrates **Microsoft Azure's Text-to-Speech (TTS)** technology wi
 - **Microsoft Azure TTS**
 - **D-ID AI Animation**
 
-## Note: Dont use my API key
-
+## Note: Dont use my API key and Image URL
 
 ## Setup & Installation
 1. **Clone the Repository**  
    ```sh
-   git clone https://github.com/YOUR_USERNAME/AI-Voice-Sync.git
+   git clone https://github.com/Xzuhair/AI-Voice-Sync.git
    cd AI-Voice-Sync
 
 2. **Create & Activate Virtual Environment**
-python -m venv AIA
-source AIA/bin/activate  # Mac/Linux
-AIA\Scripts\activate     # Windows
+- **python -m venv AIA**
+- **source AIA/bin/activate  # Mac/Linux**
+- **AIA\Scripts\activate  # Windows**
 
 3. **Install Dependencies**
 pip install -r requirements.txt
@@ -36,10 +35,9 @@ pip install -r requirements.txt
 4. **Run the Project**
 python main.py
 
-**Demo Video link**
+## **Demo Video link:**
 
-
-**Future Improvements**
-Add real-time speech-to-text input
-Enhance animation realism
-Optimize API calls for performance
+## **Future Improvements**
+- **Add real-time speech-to-text input**
+- **Enhance animation realism**
+- **Optimize API calls for performance**

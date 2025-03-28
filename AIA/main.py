@@ -1,6 +1,9 @@
+#!pip install requests moviepy
+
 import requests
 import time
 import base64
+
 
 # API Key, Dont use my API key
 API_KEY = "eHVoYWlyYWhtZWQ5OTBAZ21haWwuY29t:LflFsmt7dMBsHPQw0z_PB"
@@ -18,6 +21,7 @@ headers = {
 response = requests.get("https://api.d-id.com/credits", headers=headers)
 print("API Test Response:", response.text)
 
+# Dont use my picture. Use image_link which you need as an avatar
 IMAGE_URL = "https://www.dropbox.com/scl/fi/t33ipleexy7j64u0m0zw9/IMG_3226.jpg?rlkey=tiqkqixzuusciannnaf0uhgxy&raw=1"
 
 # Text-to-Speech Script
