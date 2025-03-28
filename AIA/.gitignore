@@ -1,0 +1,11 @@
+# Ignore the virtual environment
+AIA/
+# Ignore system-specific files
+__pycache__/
+*.pyc
+*.pyo
+# Ignore environment files
+.env
+.DS_Store
+# Ignore log files
+*.log
