@@ -35,7 +35,9 @@ pip install -r requirements.txt
 4. **Run the Project**
 python main.py
 
-## **Demo Video link:**
+## **Demo Video link:** https://www.dropbox.com/scl/fi/lcvwylmzwtn7knutov3rm/Demo_Video.mp4?rlkey=vpskamkmq5ek354m94kd9uiri&st=wdxwx8uu&dl=0
+## **Output link:** https://www.dropbox.com/scl/fi/h292krpi0bxcunksmfov6/output2.mp4?rlkey=qjbctwkefem1frxyrj9f6k9v2&st=mrtp5t5h&dl=0
+## **Motivation_to_join Video link:** https://www.dropbox.com/scl/fi/ncl11hrw92t65a9mj4mlg/Motivation_To_Join.mp4?rlkey=9ws0jn3tp1kx993b5fr54iump&st=poi8hkpw&dl=0
 
 ## **Future Improvements**
 - **Add real-time speech-to-text input**
